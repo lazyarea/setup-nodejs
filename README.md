@@ -1,3 +1,6 @@
+#### 参考
+    http://qiita.com/narypy/items/13538c61075cebf5c477
+
 #### nvmコマンドインストール
     $ git clone https://github.com/creationix/nvm.git ~/.nvm
     $ vi ~/.bash_profile
