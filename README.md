@@ -1,7 +1,9 @@
 #### nvmコマンドインストール
-    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-
-#### ターミナル再起動
+    $ git clone https://github.com/creationix/nvm.git ~/.nvm
+    $ vi ~/.bash_profile
+    if [[ -s ~/.nvm/nvm.sh ]];
+      then source ~/.nvm/nvm.sh
+    fi
 
 #### インストール可能なバージョン確認
     $ nvm ls-remote
@@ -9,6 +11,7 @@
 #### インストール
     $ nvm install v0.12.8
     $ nvm alias default v0.12.8
+
 #### バージョン確認
     $ nvm ls
     ->      v0.12.8
